@@ -525,3 +525,38 @@ img {
 .blogs__link:hover {
   border-color: var(--first-color);
 }
+.work__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create responsive grid */
+  gap: 2rem; /* Add space between the items */
+  margin-top: 2rem; /* Optional: add some space above the section */
+}
+
+.work__item {
+  background: #f4f4f4; /* Optional: background color for each item */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better design */
+  transition: transform 0.3s ease;
+}
+
+.work__item:hover {
+  transform: translateY(-10px); /* Add a hover effect */
+}
+
+.work__title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.work__text {
+  font-size: 1rem;
+  color: #555;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
