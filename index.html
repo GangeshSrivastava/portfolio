@@ -9,7 +9,8 @@
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Gangesh Portfolio</title>
+        <meta name="description" content="Portfolio of Gangesh, a backend-focused software engineer building reliable web platforms and services.">
+        <title>Gangesh | Software Engineer</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -23,8 +24,10 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#impact" class="nav__link">Impact</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#blogs" class="nav__link">Blogs</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
@@ -40,14 +43,16 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Gangesh</span><br> Software Engineer</h1>
+                    <p class="eyebrow">Backend &amp; Platform Engineering</p>
+                    <h1 class="home__title">I build <span class="home__title-color">reliable systems</span><br>that scale.</h1>
+                    <p class="home__intro">Software engineer with 8 years of experience delivering secure APIs, distributed services, and data-intensive products.</p>
 
-                    <a href="https://goqua.org.in" class="button" target="_blank">Contact</a>
+                    <a href="#contact" class="button">Let’s work together <i class='bx bx-right-arrow-alt'></i></a>
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com" class="home__social-icon" aria-label="LinkedIn" target="_blank" rel="noreferrer"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com" class="home__social-icon" aria-label="GitHub" target="_blank" rel="noreferrer"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">
@@ -57,7 +62,7 @@
                         </mask>
                         <g mask="url(#mask0)">
                             <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/ProfMe.png"/>
                         </g>
                     </svg>
                 </div>
@@ -69,14 +74,31 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
+                        <img src="assets/img/ProfMe.png" alt="">
                     </div>
                     
                     <div>
-                        <h2 class="about__subtitle">I'am Gangesh</h2>
-                        <p class="about__text">Software Engineer with 7 years of experience in web applications and microservices development. Skilled in Golang,
-                            Cassandra and various tools, with a proven ability to work both independently and as part of a team.</p>           
+                        <p class="eyebrow">A little about me</p>
+                        <h2 class="about__subtitle">Backend engineer. Product-minded collaborator.</h2>
+                        <p class="about__text">I design and ship dependable web applications and microservices, with particular depth in Go, data systems, and cloud infrastructure. I enjoy turning complex product requirements into services that are secure, observable, and easy to evolve.</p>
                     </div>                                   
+                </div>
+            </section>
+
+            <!--===== IMPACT =====-->
+            <section class="impact section" id="impact">
+                <div class="impact__heading bd-grid">
+                    <div>
+                        <p class="eyebrow">Selected impact</p>
+                        <h2 class="impact__title">Engineering work measured by outcomes.</h2>
+                    </div>
+                    <p class="impact__copy">From high-volume communication platforms to data privacy products, I build the dependable foundations teams rely on.</p>
+                </div>
+                <div class="impact__container bd-grid">
+                    <article class="impact__item"><strong class="stat" data-target="8" data-suffix="">8</strong><span>Years of engineering experience</span></article>
+                    <article class="impact__item"><strong class="stat" data-target="20" data-suffix="+">20+</strong><span>Projects delivered</span></article>
+                    <article class="impact__item"><strong class="stat" data-target="10" data-suffix="M+">10M+</strong><span>Requests supported</span></article>
+                    <article class="impact__item"><strong class="stat" data-target="99.9" data-suffix="%">99.9%</strong><span>Availability target</span></article>
                 </div>
             </section>
 
@@ -86,8 +108,9 @@
 
                 <div class="skills__container bd-grid">       
                     <div>
-                        <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Programming Languages</p>
+                        <p class="eyebrow">Technical toolkit</p>
+                        <h2 class="skills__subtitle">Professional skills</h2>
+                        <p class="skills__text">Languages &amp; platforms</p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bx-code-alt skills__icon'></i>
@@ -99,6 +122,14 @@
                             <div>
                                 <span class="skills__percentage">95%</span>
                             </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-aws skills__icon'></i>
+                                <span class="skills__name">AWS</span>
+                            </div>
+                            <div class="skills__bar skills__aws"></div>
+                            <div><span class="skills__percentage">75%</span></div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
@@ -199,43 +230,68 @@
 
             <!--===== WORK =====-->
             <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
+                <p class="section-kicker">Selected work</p>
+                <h2 class="section-title">Products I’ve helped bring to life</h2>
             
                 <div class="work__container bd-grid">
+                    <div class="work__item work__item--featured">
+                        <div class="work__meta">Real estate platform</div>
+                        <h3 class="work__title">Property Finder</h3>
+                        <p class="work__text">A leading real estate marketplace helping people discover homes and connect with agents. Contributed to scalable backend services and APIs that support property search, listings, and a dependable user experience.</p>
+                        <div class="work__tags"><span>Go</span><span>APIs</span><span>Scale</span></div>
+                    </div>
                     <div class="work__item">
+                        <div class="work__meta">Government platform</div>
                         <h3 class="work__title">GovDrive - NIC</h3>
-                        <p class="work__text">GovDrive is a secure and efficient platform that enables users to store and manage their personal data on object storage.
-                            It provides a range of features, including file upload, download, sharing, and synchronization, tailored to meet diverse user needs.</p>
+                        <p class="work__text">A secure personal-data platform for object storage, supporting upload, download, sharing, and synchronization workflows.</p>
                     </div>
             
                     <div class="work__item">
+                        <div class="work__meta">Communications</div>
                         <h3 class="work__title">Kaleyra</h3>
                         <p class="work__text">Kaleyra is a CpaaS (communication platform as a service) provider for voices, and messaging (sms, WhatsApp etc).</p>
                     </div>
             
                     <div class="work__item">
+                        <div class="work__meta">Data privacy</div>
                         <h3 class="work__title">Ketch</h3>
                         <p class="work__text">Ketch helps users to manage their data on different integration apps. 
                             It allows users to access, update, and delete their information from any integrated apps via cookie/session or consent acceptance as per GDPR law.</p>
                     </div>
             
                     <div class="work__item">
+                        <div class="work__meta">Health technology</div>
                         <h3 class="work__title">HelpNow</h3>
                         <p class="work__text">HelpNow is a doctor-patient platform for all types of medical concerns where patients and doctors can sign up, connect, and perform audio/video calling.</p>
                     </div>
             
                     <div class="work__item">
+                        <div class="work__meta">Gaming platform</div>
                         <h3 class="work__title">ESDL</h3>
                         <p class="work__text">(E-Sport Development League) is a gaming platform that allows users to register and request to join a team for a particular season according to their skills.</p>
                     </div>
             
                     <div class="work__item">
+                        <div class="work__meta">Workforce platform</div>
                         <h3 class="work__title">ShiftPixy</h3>
                         <p class="work__text">Shiftpixy (API & notification) is a web platform to provide multiple works/jobs as part-time or full-time in different schedules.</p>
                     </div>
                 </div>
             </section>
             
+
+            <!--===== SERVICES =====-->
+            <section class="services section" id="services">
+                <div class="services__container bd-grid">
+                    <div>
+                        <p class="eyebrow">Development services</p>
+                        <h2 class="services__title">Need a thoughtful engineering partner?</h2>
+                        <p class="services__text">For web development, backend systems, and product engineering support, visit GoQua to learn more about how we can work together.</p>
+                    </div>
+                    <a href="http://goqua.org.in" class="button services__button" target="_blank" rel="noreferrer">Visit GoQua <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+            </section>
+
 
             <!--===== BLOGS =====-->
 <section class="blogs section" id="blogs">
@@ -268,12 +324,21 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enter" class="contact__button button">
-                    </form>
+                    <div class="contact__intro">
+                        <p class="eyebrow">Let’s connect</p>
+                        <h2 class="contact__title">Have a project in mind?</h2>
+                        <p>Get in touch directly. I’m always open to discussing meaningful engineering work and collaboration.</p>
+                    </div>
+                    <div class="contact__details">
+                        <a href="mailto:gang14.oo7@gmail.com" class="contact__detail">
+                            <i class='bx bx-envelope'></i>
+                            <span><small>Email</small>gang14.oo7@gmail.com</span>
+                        </a>
+                        <a href="tel:+918178854799" class="contact__detail">
+                            <i class='bx bx-phone'></i>
+                            <span><small>Phone</small>+91 8178854799</span>
+                        </a>
+                    </div>
                 </div>
             </section>
         </main>
@@ -286,7 +351,7 @@
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p class="footer__copy">2025&#169; All rigths reserved</p>
+            <p class="footer__copy">© 2026 Gangesh. All rights reserved.</p>
         </footer>
 
 
