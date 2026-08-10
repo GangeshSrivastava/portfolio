@@ -37,7 +37,9 @@ const year = new Date().getFullYear()
   z-index: 1;
   padding: 2.5rem 0;
   border-top: 1px solid var(--glass-border);
-  background: rgba(10, 12, 22, 0.6);
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  transition: background 0.3s, color 0.3s;
 }
 
 .footer__inner {
@@ -54,6 +56,7 @@ const year = new Date().getFullYear()
   gap: 0.5rem;
   font-size: 1.25rem;
   font-weight: 700;
+  color: var(--footer-text);
 }
 
 .footer__brand svg {
@@ -73,20 +76,21 @@ const year = new Date().getFullYear()
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 0.625rem;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
   font-size: 1.15rem;
-  color: var(--text-secondary);
-  transition: transform 0.25s, color 0.25s;
+  color: var(--footer-text-muted);
+  transition: transform 0.25s, color 0.25s, background 0.25s;
 }
 
 .footer__social a:hover {
   transform: translateY(-2px);
-  color: var(--accent-light);
+  color: var(--accent);
+  background: var(--accent-soft-hover);
 }
 
 .footer__copy {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: var(--footer-text-muted);
 }
 </style>

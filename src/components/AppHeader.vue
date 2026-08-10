@@ -202,7 +202,7 @@ onUnmounted(() => {
   position: fixed;
   inset: var(--header-height) 0 0 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.45);
+  background: var(--backdrop-bg);
   border: none;
   cursor: pointer;
   animation: fade-in 0.25s ease;

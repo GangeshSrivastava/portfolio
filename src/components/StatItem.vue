@@ -35,8 +35,8 @@ onMounted(() => {
 
 .impact__item:hover {
   transform: translateY(-4px);
-  border-color: rgba(99, 102, 241, 0.35);
-  box-shadow: 0 12px 40px rgba(99, 102, 241, 0.12);
+  border-color: var(--accent-border);
+  box-shadow: var(--card-shadow);
 }
 
 .impact__icon {

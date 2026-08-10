@@ -121,7 +121,7 @@ const { el, visible } = useReveal()
 
 .about__mini-card:hover {
   transform: translateY(-2px);
-  border-color: rgba(99, 102, 241, 0.4);
+  border-color: var(--accent-border);
 }
 
 .about__mini-card svg {

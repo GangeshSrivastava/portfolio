@@ -64,7 +64,7 @@ const { el, visible } = useReveal()
   gap: 2.5rem;
   padding: 2rem;
   border-radius: 1.25rem;
-  background: linear-gradient(145deg, rgba(99, 102, 241, 0.1), rgba(10, 12, 22, 0.5));
+  background: var(--contact-bg);
   border: 1px solid var(--glass-border);
 }
 
@@ -86,8 +86,8 @@ const { el, visible } = useReveal()
   width: 2.75rem;
   height: 2.75rem;
   border-radius: 0.75rem;
-  background: rgba(99, 102, 241, 0.12);
-  border: 1px solid rgba(99, 102, 241, 0.25);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
   font-size: 1.25rem;
   color: var(--text-secondary);
   transition: transform 0.25s, color 0.25s, background 0.25s;
@@ -96,7 +96,7 @@ const { el, visible } = useReveal()
 .contact__social a:hover {
   transform: translateY(-3px);
   color: var(--accent-light);
-  background: rgba(99, 102, 241, 0.22);
+  background: var(--accent-soft-hover);
 }
 
 .contact__details {
@@ -117,7 +117,7 @@ const { el, visible } = useReveal()
 
 .contact__card:hover {
   transform: translateX(6px);
-  border-color: rgba(99, 102, 241, 0.35);
+  border-color: var(--accent-border);
 }
 
 .contact__card-icon {
@@ -127,7 +127,7 @@ const { el, visible } = useReveal()
   width: 3rem;
   height: 3rem;
   border-radius: 0.75rem;
-  background: rgba(99, 102, 241, 0.15);
+  background: var(--accent-soft);
   font-size: 1.5rem;
   color: var(--accent);
   flex-shrink: 0;

@@ -85,8 +85,8 @@ const services = [
   align-items: center;
   gap: 0.5rem;
   padding: 0.6rem 1rem;
-  background: rgba(99, 102, 241, 0.1);
-  border: 1px solid rgba(99, 102, 241, 0.2);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
   border-radius: 0.625rem;
   font-size: 0.88rem;
   color: var(--text-secondary);

@@ -35,7 +35,7 @@ const { el, visible } = useReveal()
 
 <style scoped>
 .impact {
-  background: linear-gradient(160deg, rgba(99, 102, 241, 0.12) 0%, rgba(10, 12, 22, 0) 50%);
+  background: var(--impact-bg);
   border-top: 1px solid var(--glass-border);
   border-bottom: 1px solid var(--glass-border);
   position: relative;
